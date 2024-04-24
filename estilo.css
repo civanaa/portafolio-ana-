@@ -31,3 +31,32 @@
   align-self: center;
   font-size: 10rem;
 }
+
+.texto1 {
+  background-color: #f8bad4;
+  color: #09745f;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.soluciones {
+  align-self: left;
+  font-size: 4rem;
+}
+
+.texto2 {
+  background-color: #09745f;
+  color: #f8bad4;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+
+.combinar {
+  align-self: right;
+  align-content: right;
+  font-size: 4rem;
+}
