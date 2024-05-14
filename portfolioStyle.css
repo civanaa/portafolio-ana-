@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'fontstylelight';
+    src: url('fonts/KyivTypeSans-Light2.otf') format('opentype'); 
+}
+@font-face {
+    font-family: 'fontstyleheavy';
+    src: url('fonts/KyivTypeSans-Heavy2.otf') format('opentype'); 
+}
+@font-face {
+    font-family: 'fontstyleBlack';
+    src: url('fonts/KyivTypeSans-Black2.otf') format('opentype'); 
+}
+
+body {
+    font-family: 'fontstyle', sans-serif; 
+}
+/* Estilos para primer contenedor */
+.firstContainer {
+    background-color: #51A937;
+    height: 760px;
+}
+
+.labelWithLine {
+    position: relative;
+    margin-left: 120px;
+    color: white;
+    font-size: 35px;    
+}
+
+.labelWithLine::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 13px; 
+    width: 1120px;
+    border-bottom: 3px solid #ffffff; 
+    margin-left: 130px;
+}
+.labelWithLine::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 13px; 
+    width: 60px; 
+    border-bottom: 3px solid #ffffff; 
+    margin-left: -90px;
+}
+.linkContainer {
+    text-align: right;
+    padding: 20px;
+}
+
+.linkContainer a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding-right: 130px;
+    font-weight: lighter; 
+}
+.firstContainer span{
+    font-family: 'fontstyleblack'; 
+    font-size: 230px;   
+}
+.portfolio{
+    margin-left: 80px;
+    margin-top: 150px;
+}
+.po{
+    color: #F9ACE3;
+}
+.rt{
+    color: #c6ad62;
+}
+.fo{
+    color: #1C8370;
+}
+.li{
+    color: #c6ad62;
+}
+.os{
+    color: #F9ACE3;
+}
+
+/* Estilos para segundo contenedor */
+
+.secondContainer {
+    position: relative;
+    background-color: #F9ACE3;
+    height: 760px;
+    margin-top: -25px;
+}
+
+.audiovisual {
+    font-family: 'fontstyleBlack';
+    color: #1C8370;
+    font-size: 220px;
+    position: absolute;
+    bottom: -190px;
+    left: 0;
+    z-index: 1; 
+}
+
+.camera {
+    position: absolute;
+    margin-left: 807.5px;
+    margin-top: 340px;
+    z-index: 0; 
+    height: 600px;
+    width: 600px;
+}
+
+/* Estilos para tercer contenedor */
+.thirdContainer {
+    background-color: #c6ad62;
+    height: 760px;
+    position: relative; /* Asegura que los elementos absolutos se posicionen correctamente dentro de este contenedor */
+    overflow: hidden; /* Oculta cualquier contenido que se desborde del contenedor */
+}
+
+.grafico {
+    font-family: 'fontstyleBlack';
+    color: #F9ACE3;
+    font-size: 200px;
+    position: absolute;
+    margin-top: 540px;
+    left: 0;
+    z-index: 1;
+    margin-left: 650px;
+}
+.ojo{
+    margin-top: 330px;
+}

@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'fontstylelight';
+    src: url('fonts/KyivTypeSans-Light2.otf') format('opentype'); 
+}
+@font-face {
+    font-family: 'fontstyleheavy';
+    src: url('fonts/KyivTypeSans-Heavy2.otf') format('opentype'); 
+}
+@font-face {
+    font-family: 'fontstyleBlack';
+    src: url('fonts/KyivTypeSans-Black2.otf') format('opentype'); 
+}
+
+body {
+    font-family: 'fontstyle', sans-serif; 
+}
+.firstContainer {
+    background-color: #c6ad62;
+    height: 1500px;
+}
+
+.labelWithLine {
+    position: relative;
+    margin-left: 120px;
+    color: white;
+    font-size: 35px;    
+}
+
+.labelWithLine::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 13px; 
+    width: 1120px;
+    border-bottom: 3px solid #ffffff; 
+    margin-left: 130px;
+}
+.labelWithLine::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 13px; 
+    width: 60px; 
+    border-bottom: 3px solid #ffffff; 
+    margin-left: -90px;
+}
+.linkContainer {
+    text-align: right;
+    padding: 20px;
+}
+
+.linkContainer a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding-right: 130px;
+    font-weight: lighter; 
+}
+.contact{
+    font-family: 'fontstyleBlack';
+    color: #F9ACE3;
+    font-size: 260px;
+    margin-left: 100px;
+    margin-top: 130px;
+}
+.phoneImage{
+    height: 800px;
+    width: 800px;
+    margin-top: -300px;
+}
+.containerContact h1{
+    font-family: 'fontstyleblack';
+    color: white;
+    font-size: 60px;
+    line-height: 50px;
+    text-align: right;
+}
+.containerContact{
+    margin-right: 50px;
+    margin-top: -300px;
+}
