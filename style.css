@@ -95,8 +95,12 @@ body {
 }
 
 /* Estilos para tercer contenedor de landing */
-.image{
+.image {
     width: 1407px;
+    transition: transform 0.3s ease-in-out;
+}
+.image:hover {
+    transform: scale(1.1);
 }
 /* Estilos para cuarto contenedor */
 .fourthContainer{
